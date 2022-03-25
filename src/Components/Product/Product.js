@@ -8,7 +8,9 @@ const Product = (props) => {
       <img src={img} alt="" />
       <h3>Product name: {name}</h3>
       <p>Price : ${price}</p>
-      <button className="btn">Add to cart</button>
+      <button className="btn" onClick={() => props.addTocart(props.product)}>
+        Add to cart
+      </button>
     </div>
   );
 };
