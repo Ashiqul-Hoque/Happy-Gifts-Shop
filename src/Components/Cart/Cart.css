@@ -1,5 +1,7 @@
 .cart {
-  background: #1780f0;
+  background: #0f2027;
+  background: -webkit-linear-gradient(to left, #2c5364, #203a43, #0f2027);
+  background: linear-gradient(to left, #2c5364, #203a43, #0f2027);
   color: white;
   position: sticky;
   top: 0;

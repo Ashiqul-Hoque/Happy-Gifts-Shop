@@ -8,5 +8,12 @@
   grid-template-columns: 1fr 1fr 1fr;
   gap: 20px;
   padding: 20px 30px;
-  bordere: 1px solid gray;
+}
+.text {
+  background: #3494e6;
+  background: -webkit-linear-gradient(to right, #ec6ead, #3494e6);
+  background: linear-gradient(to right, #ec6ead, #3494e6);
+  color: white;
+  margin: 0;
+  padding: 20px 0 20px 40px;
 }

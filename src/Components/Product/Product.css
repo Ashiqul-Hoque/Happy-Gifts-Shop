@@ -1,10 +1,14 @@
 .card {
   border-radius: 10px;
-  border: 2px solid gray;
+  border: 3px solid gray;
   padding: 10px;
+}
+.card:hover {
+  box-shadow: 10px 10px 20px grey;
 }
 .card img {
   width: 100%;
+  border-radius: 10px;
 }
 .btn {
   width: 100%;
@@ -14,6 +18,7 @@
   background-color: rgb(104, 143, 173);
   color: white;
   font-size: 18px;
+  border: none;
 }
 .btn:hover {
   background-color: rgb(63, 100, 126);

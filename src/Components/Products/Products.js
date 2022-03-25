@@ -13,14 +13,17 @@ const Products = () => {
   }, []);
 
   return (
-    <div className="shop">
-      <div className="products-container">
-        {products.map((product) => (
-          <Product product={product} key={product.id}></Product>
-        ))}
-      </div>
-      <div className="cart">
-        <Cart></Cart>
+    <div>
+      <h1 className="text">Happy Gifts Shop</h1>
+      <div className="shop">
+        <div className="products-container">
+          {products.map((product) => (
+            <Product product={product} key={product.id}></Product>
+          ))}
+        </div>
+        <div className="cart">
+          <Cart></Cart>
+        </div>
       </div>
     </div>
   );
