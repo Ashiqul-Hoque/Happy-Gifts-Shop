@@ -1,3 +1,7 @@
+# Happy Gifts Shop
+
+Click here to see the live site [https://facebook.github.io/create-react-app/docs/deployment]
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
