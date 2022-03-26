@@ -17,3 +17,13 @@
   margin: 0;
   padding: 20px 0 20px 40px;
 }
+@media screen and (max-width: 480px) {
+  .products-container {
+    grid-template-columns: 1fr;
+    padding: 5px 5px;
+    gap: 10px;
+  }
+  .shop {
+    gap: none;
+  }
+}

@@ -18,8 +18,12 @@ const Cart = (props) => {
       </div>
 
       <div>
-        <button className="btn-one">Choose 1 for me</button>
-        <button className="btn-clear">Choose again</button>
+        <button className="btn-one" onClick={() => props.chooseOne()}>
+          Choose 1 for me
+        </button>
+        <button className="btn-clear" onClick={() => props.clearAll()}>
+          Choose again
+        </button>
       </div>
     </div>
   );

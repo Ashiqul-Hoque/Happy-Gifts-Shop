@@ -14,11 +14,21 @@ const Products = () => {
   }, []);
 
   const addTocart = (product) => {
-    // console.log(product);
     const newCart = [...cart, product];
     setCart(newCart);
   };
-  // console.log(cart);
+
+  const clearAll = () => {
+    const emptyCart = [];
+    setCart(emptyCart);
+  };
+
+  const chooseOne = () => {
+    let index = Math.floor(Math.random() * cart.length);
+    let oneItem = cart[index].name;
+    console.log(oneItem);
+  };
+
   return (
     <div>
       <h1 className="text">Happy Gifts Shop</h1>
@@ -33,7 +43,7 @@ const Products = () => {
           ))}
         </div>
         <div>
-          <Cart cart={cart}></Cart>
+          <Cart cart={cart} clearAll={clearAll} chooseOne={chooseOne}></Cart>
         </div>
       </div>
     </div>
