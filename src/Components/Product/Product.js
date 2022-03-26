@@ -8,7 +8,7 @@ const Product = (props) => {
   return (
     <div className="card">
       <img src={img} alt="" />
-      <h3>Product name: {name}</h3>
+      <h4>Product name: {name}</h4>
       <p className="price">Price : ${price}</p>
       <button
         className="btn"
