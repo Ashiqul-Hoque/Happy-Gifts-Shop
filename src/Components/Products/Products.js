@@ -25,8 +25,9 @@ const Products = () => {
 
   const chooseOne = () => {
     let index = Math.floor(Math.random() * cart.length);
-    let oneItem = cart[index].name;
-    console.log(oneItem);
+    let oneItem = cart[index];
+    const selectOne = [oneItem];
+    setCart(selectOne);
   };
 
   return (

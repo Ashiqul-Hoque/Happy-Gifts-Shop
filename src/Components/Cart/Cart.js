@@ -13,7 +13,10 @@ const Cart = (props) => {
 
       <div className="product-list">
         {items.map((item) => (
-          <li key={item.id}>{item.name}</li>
+          <div className="list">
+            <li key={item.id}>{item.name}</li>
+            <img className="cart-img" src={item.img} alt="" />
+          </div>
         ))}
       </div>
 
