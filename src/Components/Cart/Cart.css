@@ -7,3 +7,28 @@
   top: 0;
   padding-left: 10px;
 }
+.btn-one {
+  padding: 10px 15px;
+  background-color: rgb(224, 124, 2);
+  border: none;
+  border-radius: 20px;
+  color: white;
+  font-size: 16px;
+}
+.btn-one:hover {
+  background-color: rgb(255, 140, 0);
+  cursor: pointer;
+}
+.btn-clear {
+  padding: 10px 15px;
+  background-color: rgb(194, 0, 0);
+  border: none;
+  border-radius: 20px;
+  color: white;
+  font-size: 16px;
+  margin-left: 20px;
+}
+.btn-clear:hover {
+  background-color: red;
+  cursor: pointer;
+}

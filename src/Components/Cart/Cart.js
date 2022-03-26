@@ -4,17 +4,19 @@ import "./Cart.css";
 const Cart = (props) => {
   const { cart } = props;
   console.log(cart);
-
-  for (const product of cart) {
-    let newName = product.name;
-  }
-
   return (
     <div className="cart">
       <h1>Cart</h1>
       <p>Product:</p>
-      <button>button</button>
-      <button>button</button>
+      {cart.map((item) => {
+        console.log(item);
+        <p>{item}</p>;
+      })}
+
+      <div>
+        <button className="btn-one">Choose 1 for me</button>
+        <button className="btn-clear">Choose again</button>
+      </div>
     </div>
   );
 };
