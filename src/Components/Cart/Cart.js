@@ -2,16 +2,20 @@ import React from "react";
 import "./Cart.css";
 
 const Cart = (props) => {
-  const { cart } = props;
-  console.log(cart);
+  const items = props.cart;
+
   return (
     <div className="cart">
-      <h1>Cart</h1>
-      <p>Product:</p>
-      {cart.map((item) => {
-        console.log(item);
-        <p>{item}</p>;
-      })}
+      <div>
+        <h1>Cart</h1>
+        <h3>Product List:</h3>
+      </div>
+
+      <div className="product-list">
+        {items.map((item) => (
+          <li key={item.id}>{item.name}</li>
+        ))}
+      </div>
 
       <div>
         <button className="btn-one">Choose 1 for me</button>

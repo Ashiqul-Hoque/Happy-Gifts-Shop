@@ -14,10 +14,11 @@ const Products = () => {
   }, []);
 
   const addTocart = (product) => {
+    // console.log(product);
     const newCart = [...cart, product];
     setCart(newCart);
   };
-
+  // console.log(cart);
   return (
     <div>
       <h1 className="text">Happy Gifts Shop</h1>

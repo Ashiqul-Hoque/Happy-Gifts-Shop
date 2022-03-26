@@ -9,6 +9,11 @@
   margin: 20px 10px;
   border-radius: 20px;
 }
+.product-list {
+  margin-bottom: 20px;
+  padding-left: 30px;
+}
+
 .btn-one {
   padding: 10px 15px;
   background-color: rgb(224, 124, 2);
